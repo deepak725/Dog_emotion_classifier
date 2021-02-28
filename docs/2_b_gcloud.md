@@ -1,7 +1,7 @@
 ```
 
 GCP_PROJECT=....
-APP_NAME=food
+APP_NAME=Dog_emotion_classifier
 REGION="us-central1"
 MEMORY=1G
 gcloud builds submit --tag gcr.io/$GCP_PROJECT/$APP_NAME
