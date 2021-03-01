@@ -10,7 +10,7 @@ WORKDIR app
 ADD requirements.txt .
 RUN pip install -r requirements.txt
 #pip install --no-cache-dir -r
-ADD models models
+ADD models models2
 ADD src src
 
 # Run it once to trigger resnet download
